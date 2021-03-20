@@ -1,0 +1,52 @@
+<div class="container">
+  <!-- header -->
+  <div class="header"><h1>
+    Registration form
+  </h1></div>
+  <!-- body -->
+  <div class="form-container">
+    <form [formGroup]="registerForm">
+      <!-- Name  -->
+      <div class="item">
+        <div>
+          Name
+        </div>
+        <input type="text" formControlName="name" class="input-class"
+        />
+      </div>
+
+      <!-- DOB  -->
+      <div class="item">
+        <div>
+          DOB
+        </div>
+        <input type="date" formControlName="dob" class="input-class"
+        />
+      </div>
+
+      <!-- Email  -->
+      <div class="item">
+        <div>
+          Email
+        </div>
+        <input type="email" formControlName="email" class="input-class"
+        />
+      </div>
+
+      <!-- Password  -->
+      <div class="item">
+        <div>
+          Password
+        </div>
+        <input type="password" formControlName="password" class="input-class"
+        />
+      </div>
+      <div class="item">
+        <input type="submit" (click)="registerUser()" value="Login User" class="btn login-btn"
+        />
+        <input type="submit" (click)="registerUser()" value="Register" class="btn register-btn"
+        />
+      </div>
+    </form>
+  </div>
+</div>

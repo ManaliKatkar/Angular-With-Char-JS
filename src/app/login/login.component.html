@@ -1,0 +1,45 @@
+<div class="container">
+  <!-- header -->
+  <div class="header"><h1>Login form</h1></div>
+  <!-- body -->
+  <div class="form-container">
+    <form [formGroup]="loginForm">
+      <!-- Email  -->
+      <div class="item">
+        <div>Email</div>
+        <input
+          type="email"
+          placeholder="Enter Email here..."
+          formControlName="email"
+          class="input-class"
+        />
+      </div>
+
+      <!-- DOB  -->
+      <div class="item">
+        <div>Password</div>
+        <input
+          type="password"
+          placeholder="Enter Password here..."
+          formControlName="password"
+          class="input-class"
+        />
+      </div>
+      <!-- Submit Button -->
+      <div class="item">
+        <input
+          type="submit"
+          (click)="gotoRegister()"
+          value="Register New User"
+          class="btn register-btn"
+        />
+        <input
+          type="submit"
+          (click)="loginUser()"
+          value="Login"
+          class="btn login-btn"
+        />
+      </div>
+    </form>
+  </div>
+</div>

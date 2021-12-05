@@ -1,31 +1,11 @@
-# AngularApp
+Chart JS
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.1.
+1. Bubble chart
 
-## Development server
+![image](https://user-images.githubusercontent.com/47694362/144741128-c0db739b-f69a-461b-a042-28796c63ae6b.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+2. Guage in Angular 8
+![image](https://user-images.githubusercontent.com/47694362/144741153-fba2fa25-a9a7-4ad6-b2d9-355f0e078772.png)
 
 
-![image](https://user-images.githubusercontent.com/47694362/111867759-124ef500-899c-11eb-9ac5-97d0bdbbfe37.png)
-![image](https://user-images.githubusercontent.com/47694362/111867776-37dbfe80-899c-11eb-90ea-9e6b658db0d3.png)
+![image](https://user-images.githubusercontent.com/47694362/144741166-c5b65b17-baa4-45f0-9b54-758d88608676.png)

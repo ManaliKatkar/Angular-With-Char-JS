@@ -11,6 +11,7 @@
   },
   "private": true,
   "dependencies": {
+    "-": "0.0.1",
     "@angular/animations": "~8.0.0",
     "@angular/common": "~8.0.0",
     "@angular/compiler": "~8.0.0",
@@ -19,7 +20,11 @@
     "@angular/platform-browser": "~8.0.0",
     "@angular/platform-browser-dynamic": "~8.0.0",
     "@angular/router": "~8.0.0",
+    "@types/d3": "^7.1.0",
+    "d3": "^7.3.0",
     "rxjs": "~6.4.0",
+    "save": "^2.4.0",
+    "save-dev": "0.0.1-security",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
   },

@@ -3,7 +3,7 @@ import { NgModule } from "@angular/core";
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
-import { BubbleComponent } from "./bubble-chart/bubble-chartcomponent";
+import { BubbleComponent } from "./pie-chart/pie-chart.component";
 
 @NgModule({
   declarations: [AppComponent, BubbleComponent],

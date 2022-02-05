@@ -2,6 +2,7 @@ Chart JS
 
 Guage D3 Chart-
 Refer guage-d3 branch
+
 You can refer 
 https://medium.com/@manaliukatkar/d3-gauge-chart-with-angular-db83c22d3e91
 
